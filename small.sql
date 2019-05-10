@@ -41,7 +41,7 @@ CREATE TABLE `config` (
 # Data for table "config"
 #
 
-INSERT INTO `config` VALUES (1,'website_name','网站名称','小小商城',100,NULL),(2,'index_description','首页描述','小小商城是我的一个非常小巧轻便的商城系统',50,NULL),(3,'index_keyword','首页关键词','小小商城,商超系统',25,NULL),(4,'index_title','首页标题','小小商城——基于Java的商城项目实践',12,NULL),(5,'path_product_img','产品图片存放目录','pictures/product/',6,NULL),(6,'path_category_img','分类图片存放目录','pictures/category/',5,NULL);
+INSERT INTO `config` VALUES (1,'website_name','网站名称','MH商城',100,NULL),(2,'index_description','首页描述','MH商城是一个非常小巧轻便的商城系统',50,NULL),(3,'index_keyword','首页关键词','MH商城,商超系统',25,NULL),(4,'index_title','首页标题','MH商城',12,NULL),(5,'path_product_img','产品图片存放目录','pictures/product/',6,NULL),(6,'path_category_img','分类图片存放目录','pictures/category/',5,NULL);
 
 #
 # Structure for table "product"
