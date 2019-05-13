@@ -19,6 +19,7 @@
             <th scope="col">#</th>
             <th scope="col">用户</th>
             <th scope="col">用户组</th>
+            <th scope="col">删除</th>
         </tr>
         </thead>
         <tbody>
@@ -28,13 +29,15 @@
                 <th scope="row">${u.id}</th>
                 <td>${u.name}</td>
                 <td>${u.group}</td>
+                <td><a href="delete?id=${u.id}" class="delete-button"><span class="glyphicon glyphicon-trash"></span></a></td>
             </tr>
         </c:forEach>
         </tbody>
     </table>
 </div>
-
 <%@include file="common/adminPage.jsp" %>
+<%@include file="../include/login/registerPageAdmin.jsp" %>
+
 
 <%@include file="common/adminFooter.jsp" %>
 
