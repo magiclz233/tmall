@@ -20,9 +20,6 @@ public class UserFrontController extends FrontBaseController {
     @RequestMapping("registerAdd")
     public String registerAdd(String name ,String password , Model model) throws Exception {
         String msg = null;
-        if(!HtmlUtils.htmlEscape(name).equals(password)){
-            msg = "用户名含有特殊字符，无法注册，请重新输入";
-        }
         if(userService.isExist(name)){
             msg = "用户名已存在，无法注册，请重新输入";
         }
